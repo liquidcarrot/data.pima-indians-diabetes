@@ -1,0 +1,34 @@
+{
+  "name": "@liquid-carrot/data",
+  "version": "1.0.0",
+  "description": "A dataset template",
+  "main": "src/index.json",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liquidcarrot/data.git"
+  },
+  "keywords": [
+    "data",
+    "dataset",
+    "json",
+    "csv",
+    "xml",
+    "template"
+  ],
+  "author": "Liquid Carrot <people@liquidcarrot.io> (https://liquidcarrot.io)",
+  "contributors": [
+    "Luis Carbonell <luiscarbonell5683@gmail.com> (https://luiscarbonell.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liquidcarrot/data/issues"
+  },
+  "homepage": "https://github.com/liquidcarrot/data#readme",
+  "devDependencies": {
+    "csv-parse": "^4.4.4",
+    "nodemon": "^1.19.1"
+  }
+}
