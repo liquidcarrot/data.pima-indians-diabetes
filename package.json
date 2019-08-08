@@ -29,6 +29,8 @@
   "homepage": "https://github.com/liquidcarrot/data#readme",
   "devDependencies": {
     "csv-parse": "^4.4.4",
-    "nodemon": "^1.19.1"
+    "csvtojson": "^2.0.10",
+    "nodemon": "^1.19.1",
+    "stream-transform": "^2.0.1"
   }
 }

@@ -1,5 +1,12 @@
 const fs = require("fs");
-const csv = require("csv");
-const path = require("path");
+const csv = require("csvtojson");
 
-// Code here...
+const sourcefile = "src/raw.csv"; // Source File
+const filename = "src/index.json"; // Output File
+
+// Converts `raw.csv` (with headers) to `index.json`
+(async () => {
+  const json = await csv().fromFile(sourcefile);
+  
+  fs.writeFileSync(filename, JSON.stringify(json));
+})()
