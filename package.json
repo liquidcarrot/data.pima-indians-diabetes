@@ -1,6 +1,6 @@
 {
   "name": "@liquid-carrot/data.pima-indians-diabetes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dataset template",
   "main": "src/index.json",
   "scripts": {
